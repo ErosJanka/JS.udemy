@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --primary-color: rgb(38, 121, 114);
+    --primary-color-darker: rgb(30, 60, 56);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container { /*Todo o conteudo- titulo/ paragrafo/ forms*/
+    max-width: 640px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 7px;
+    font-weight: bold;  /*deixa em negrito*/
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+
+}
+
+form input:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+form button{
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer; /*Para quando passar o mouse em cima aparecer uma mão*/
+}
+
+form button:hover{ /*Para quando passar  o mouse em cima mudar de cor*/
+    background: var( --primary-color-darker);
+}
+
+form button:active{ /*Quando clicar muda de cor*/
+    background: red;
+}
