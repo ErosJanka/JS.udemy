@@ -45,12 +45,13 @@ const numeros = [ [1, 2, 3], [4, 5, 6], [7, 8, 9] ]// 3 arrays dentro de 1 array
 const [,[, , seis]] = numeros; //traduzindo: [,(essa virgula é para pular o primeiro array principal)[, , seis(as duas virgulas é para pular os dois numeros paara chegar no 6)](esse é o array que precisamos)]
 
 //jeito mais simples abaixo
-const [lista1, lista2, lista3] = numeros; //pega os arrays principais
+const [lista1, [,cinco], lista3] = numeros; //pega os arrays principais. [,cinco] o array secundario do array 1 do indice
 const [,,nove] = lista3; //pega o numero 9 do 3° array
 
 console.log(numeros[1][2]); //para acessar o numero 6, preciso buscar no indice principal 1 e depois dentro desse indice o 2
 console.log(seis);
 console.log(lista3);
+console.log(cinco)
 console.log(nove);
 
 */
