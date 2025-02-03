@@ -34,5 +34,5 @@ for (let chave in pessoa){
 
 //console.log(pessoa.nome); //para acessar o nome no obejto pessoa
 // const chave = 'nome'
-// console.log(pessoa['chave']);  //O memso que no de cima, porém mais dinâmico. ex: quero criar uma variavel para o nome
+// console.log(pessoa[chave]);  //O memso que no de cima, porém mais dinâmico. ex: quero criar uma variavel para o nome
 
