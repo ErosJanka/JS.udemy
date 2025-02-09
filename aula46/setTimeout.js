@@ -1,6 +1,7 @@
 //                                              setInterval e setTimeout
 /*
-setIntervel: vai configurar um intervalo de tempo para qe alguma função seja executando em determinado momento
+setIntervel: vai configurar um intervalo de tempo para que alguma função seja executa do em determinado momento
+setTimeout: executa uma ação depois de um determinado tempo definido
 */
 
 function mostraHora(){
@@ -10,7 +11,7 @@ function mostraHora(){
 }
 
 
-const timer = setInterval(function(){ //coloque em uma variavel para criar um afunção onde ira fazer parar a execução do código
+const timer = setInterval(function(){ //coloque em uma variavel para criar um afunção onde irá fazer parar a execução do código
     console.log(mostraHora()); 
 }, 1000); // 1000 é os milisegundos, ou seja, vai executar a cada segundo
 
