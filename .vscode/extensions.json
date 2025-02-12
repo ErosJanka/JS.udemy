@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "standard.vscode-standard",
-        "mhutchie.git-graph"
+        "mhutchie.git-graph",
+        "alefragnani.project-manager"
     ]
 }
