@@ -62,3 +62,7 @@ form button:hover{ /*Para quando passar  o mouse em cima mudar de cor*/
 form button:active{ /*Quando clicar muda de cor*/
     background: red;
 }
+
+.pausado{
+    color: red;
+}
