@@ -314,3 +314,18 @@ São ações executadas quando uma ação ocorre. Quando uma ação finaliza o c
 
                                         AULA55
 Funcoes Imadiatas
+para fujir do escopo global, não quer que as variaveis, ou funções que definirem toquem no escopo global, pois elas podem ser alteradas.
+
+
+
+                                        AULA56
+Funções fabricas (Factory Functions)
+introdução de THIS
+introdução e explicação GET (getter)
+introdução e explicação SET (setter)
+
+
+
+                                        AULA57
+                                EXERCICIO: CALCULADORA
+
