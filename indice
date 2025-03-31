@@ -329,3 +329,36 @@ introdução e explicação SET (setter)
                                         AULA57
                                 EXERCICIO: CALCULADORA
 
+
+
+
+                                        AULA58
+Funções Contrutoras
+tentar convertar a aula 57 para função construtora
+
+ex: esse é um atributo publico do objet:                        FABRICA
+display: document.querySelector('.display')
+
+como é atributo publico da construtora?                         CONSTRUTORA
+this.nome = nome
+
+
+precisa de metodos:                                             FABRICA
+inicia: function(){ 
+            this.cliqueBotoes() 
+            this.pressionaEnter()
+        },
+
+                                                                CONSTRUTORA
+this.metodo = function (){
+        console.log('Sou um método')
+    };
+
+
+
+                                        AULA59
+                    EXERCÍCIO: REcriar a calculadora usando funções construtoras
+
+
+
+                                        AULA60
