@@ -1,4 +1,4 @@
-function CriaCalculadora(){
+function Calculadora(){
     this.display = document.querySelector('.display')
 
     this.Inicia = function (){
@@ -76,5 +76,5 @@ function CriaCalculadora(){
     }
 }
 
-const calculadora = new CriaCalculadora()
+const calculadora = new Calculadora()
 calculadora.Inicia()
