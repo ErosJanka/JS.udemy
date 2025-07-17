@@ -47,3 +47,5 @@ const conId = pessoas.map(function(obj, indice) {
     return newObj;            // Retorna o novo objeto
 });
 console.log(conId)
+
+console.log(pessoas)

@@ -415,3 +415,24 @@ MISSÕES:
 
                                         AULA67
 Reduce - Reduzindo um Array
+
+
+
+                                        AULA68
+filter+map+reduce
+//Retorne a soma do dobro de todos os pares 
+// -> Filtrar pares
+// -> Dobrar os valores
+//  -> Reduzir (somar tudo)
+
+const numerosPaares = numeros
+    .filter(valor => valor % 2 === 0)
+    .map(valor => valor * 2)
+    .reduce((ac, valor) => ac+ valor)
+console.log(numerosPaares)
+
+
+
+
+                                        AULA69
+forEach
