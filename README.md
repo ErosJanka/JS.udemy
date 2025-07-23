@@ -436,3 +436,7 @@ console.log(numerosPaares)
 
                                         AULA69
 forEach
+
+
+                                        AULA70
+Revisão de Objetos
