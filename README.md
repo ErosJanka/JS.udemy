@@ -445,6 +445,7 @@ Revisão de Objetos
 
 
                                         AULA71
+
 Object.defineProperty()
 Object.defineProperties()
 function Produto(nome, preco, estoque){
@@ -462,3 +463,34 @@ function Produto(nome, preco, estoque){
 const p1 = new Produto ('Camiseta', 20, 3);
 
 console.log(p1)
+
+
+
+
+
+                                        AULA72
+Getters e Setters
+
+
+
+
+
+                                        AULA73
+metodos úteis para objetos
+
+/*
+Object.values
+Object.entries
+Object.assingn(des, any)
+Object.getOwnPropertyDescriptor(o, 'prop')
+... (spread)
+
+//Já vimos
+Object.keys (retorna as chaves)
+Object.freeze (congela o objeto)
+Object.defineProperties (define varias propriedades)
+Object.defineProperty (define uma propriedade)
+*/
+
+com o spread operartor eu copio uma variavel, assim se eu alterar a copia não alterará a original ... (spread)
+com o assingn também serve para copiar, mas o spread ainda é mais intuitivo
